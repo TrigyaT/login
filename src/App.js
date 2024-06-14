@@ -1,5 +1,6 @@
 import React from 'react';
 import Login from './Components/Login/login';
+import Signin from './Components/Signin/signin';
 function App() {
   return (
     //navbar
@@ -7,7 +8,8 @@ function App() {
     //footer
     
     <div>
-      <Login /> 
+  
+    <Signin/>
     </div>
   );
 }
